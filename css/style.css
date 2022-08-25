@@ -113,7 +113,7 @@ body {
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 10px 30px;
+  padding: 5px 10px;
   color: #0a0057;
   text-align: center;
 }
@@ -153,12 +153,13 @@ a:focus {
 
 .nav-link:hover {}
 
-.navbar-brand,
-.navbar-brand:hover {
+.navbar-brand {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 24px;
   color: #fafcfd;
+  margin: 0;
+  padding: 0;
 }
 
 .custom_nav-container .nav_search-btn {

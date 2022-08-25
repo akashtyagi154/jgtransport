@@ -189,14 +189,14 @@
 
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
     .header_section {
         background-size: 190% 60px;
     }
 
     .logo-box img {
 
-        width: 60px;
+        width: 50px;
 
     }
 
@@ -212,7 +212,7 @@
     }
 
     .logo-box span {
-        font-size: 20px;
+        font-size: 18px;
         
     }
 
@@ -228,7 +228,44 @@
     }
 }
 
-@media (max-width: 360px) {}
+@media (max-width: 320px) {
+    .header_section {
+        background-size: 200% 60px;
+    }
+
+    .logo-box img {
+
+        width: 40px;
+
+    }
+
+    .read-btn,
+    .quote-btn,
+    .read-btn:hover,
+    .quote-btn:hover {
+
+        padding: 12px 10px;
+        color: #fff;
+        font-size: 14px;
+
+    }
+
+    .logo-box span {
+        font-size: 14px;
+        
+    }
+
+    .slider_form-box form .search_input input {
+        width: 175px;
+    }
+
+    .contact_form-container {
+
+        padding: 50px 20px;
+
+
+    }
+}
 
 @media (min-width: 1200px) {
     .container {
