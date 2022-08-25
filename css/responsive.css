@@ -230,13 +230,17 @@
 
 @media (max-width: 320px) {
     .header_section {
-        background-size: 200% 60px;
+        background-size: 190% 60px;
     }
 
     .logo-box img {
 
-        width: 40px;
+        width: 60px;
 
+    }
+    .navbar-brand {
+        margin: 0;
+        padding: 0;
     }
 
     .read-btn,
@@ -251,7 +255,7 @@
     }
 
     .logo-box span {
-        font-size: 14px;
+        font-size: 16px;
         
     }
 
