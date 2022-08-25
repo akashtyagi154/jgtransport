@@ -27,6 +27,7 @@
         background-image: url(../images/header-bg.jpg);
         background-repeat: no-repeat;
         background-size: 140% 90px;
+        
 
     }
 
@@ -190,12 +191,12 @@
 
 @media (max-width: 420px) {
     .header_section {
-        background-size: 165% 90px;
+        background-size: 190% 60px;
     }
 
     .logo-box img {
 
-        width: 40px;
+        width: 60px;
 
     }
 
@@ -211,7 +212,8 @@
     }
 
     .logo-box span {
-        font-size: 14px;
+        font-size: 20px;
+        
     }
 
     .slider_form-box form .search_input input {
